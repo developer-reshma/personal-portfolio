@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reshma - developer portfolio
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="header">
+        <nav>
+            <div class="left">Reshma's portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about"> About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certificates">Certificate courses</a></li>
+                    <li><a href="#contact">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hello, I'm <span class="purple">Reshma</span>. . .
+                <div> and I am a passionate</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="img/logo.png" alt="">
+            </div>
+
+        </section>
+
+        <div class="secondSection">
+
+        </div>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['web developer', 'web designer '],
+            typeSpeed: 90,
+        });
+    </script>
+
+    <div class="separation"></div>
+
+    <!-------------about----------->
+
+    <div id="about">
+        <div class="row">
+            <div class="about-me">
+                <img src="img/My_Img_.jpg">
+            </div>
+            <div class="about-col">
+                <h1 class="info">About Me</h1>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('passion')">Passion</p>
+                </div>
+                <div class="tab-contents active-tab" id="education">
+                    <ul>
+                        <li><span>B.sc IT</span><br>CGPA - 8.9</li>
+                        <li><span>HSC science</span><br>64.40%</li>
+                        <li><span>SSC</span><br>89.40%</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="skills">
+                    <ul>
+                        <li><span>UI</span><br>Designing web</li>
+                        <li><span>Development</span><br>Front-End Development </li>
+                        <li><span>Editing</span><br>Video Editing, Photo Editing, Content Editing</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="passion">
+                    <ul>
+                        <li><span>Poet/Writer</span><br>writing poems/writing quotes</li>
+                        <li><span>Designer</span><br>mehandi designer</li>
+                        <li><span>creater</span><br>bookmarks maker/creater</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="separation"></div>
+
+
+    <!--------------------------internship------------------------->
+
+    <div class="intern_info">
+        <h1 class="head_">Internship</h1>
+        <div class="intern">
+            <div class="title_">
+                <p>I thoroughly enjoyed my internship experience at Unified Mentor company, where I had the opportunity to work with a talented team. I gained valuable skills in Front-End Development and developed a deeper understanding of the consistency. Overall, this internship has been an invaluable learning experience that has prepared me for a successful career in Web Development."</p>
+            </div>
+            <div class="intern_img">
+                <img src="img/certifiacte_internship.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="separation"></div>
+
+    <!--------------------My Projects------------------>
+
+    <div id="projects">
+        <div class="container">
+            <h1 class="info">My Projects</h1>
+            <div class="projects-list">
+                <div>
+                    <i class="fa-brands fa-amazon" style="color: #1046b1;"></i>
+                    <h2>Amazon</h2>
+                    <p>Amazon is an e-commerce website for users to buy items online, the UI is user-friendly and has no
+                        complex layout or styling & designed using HTML & CSS. </p>
+                    <a href="https://github.com/developer-reshma/Amazon">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-n" style="color: #b10606;"></i>
+                    <h2>Netflix</h2>
+                    <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies,
+                        anime, documentaries. The Netflix clone project is a web application developed using HTML, CSS.
+                    </p>
+                    <a href="https://github.com/developer-reshma/netflix">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-pinterest" style="color: #dd0303;"></i>
+                    <h2>Pinterest</h2>
+                    <p>Pinterest is a visual discovery engine for finding ideas like recipes, home and style
+                        inspiration, and more. The pinterest clone is created using HTML & CSS.</p>
+                    <a href="https://github.com/developer-reshma/pinterest">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="separation"></div>
+
+    <!-----------certificates----------->
+
+    <div id="certificates">
+        <div class="container">
+            <h1 class="info">Certificate Courses</h1>
+            <div class="certificate-list">
+                <div class="certificate">
+                    <img src="img/AI.jpg">
+                    <div class="layer">
+                        <h3>Introduction to Artificial Intelligence</h3>
+                        <p>Artificial Intelligence (AI) is the development of computer systems that perform tasks
+                            requiring human intelligence.</p>
+                        <a
+                            href="https://www.linkedin.com/learning/certificates/119919b730bc163929924dc99ba07ea6f37876eeb4dd1b5833171ea275398512?trk=share_certificate"><i
+                                class="fa-solid fa-up-right-from-square" style="color: red;"></i></a>
+                    </div>
+                </div>
+                <div class="certificate">
+                    <img class="dev" src="img/frontend.jpg">
+                    <div class="layer">
+                        <h3>Front-End Development</h3>
+                        <p>Front-end Development is the development or creation of a user interface</p>
+                        <a href="img/Front-End-Dev certificate.jpg"><i class="fa-solid fa-up-right-from-square"
+                                style="color: red;"></i></a>
+                    </div>
+                </div>
+                <div class="certificate">
+                    <img src="img/Gen-AI.png">
+                    <div class="layer">
+                        <h3>Generative AI</h3>
+                        <p>Generative AI is a subset of deep learning that creates new artificial content or data
+                            without human intervention.</p>
+                        <a
+                            href="https://www.linkedin.com/learning/certificates/d87db1aafca54bd6a59d5c73c8b27f6df4b575311b3395ea490f945fc6f05665?trk=share_certificate"><i
+                                class="fa-solid fa-up-right-from-square" style="color: red;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="separation"></div>
+
+    <!---------------contact----------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="info">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>reshmapukale404@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>0123456789</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/reshma_208_/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/reshma_208_/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/reshma-pukale-976396308/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/reshma_208_/"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <a href="img/Resume.docx" download class="btn">
+                        <h4>Download CV</h4>
+                    </a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">
+                            <h4>Submit</h4>
+                        </button>
+                    </form>
+                    <div id="msg"></div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-solid fa-copyright"> by R e s h m a</i></p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
